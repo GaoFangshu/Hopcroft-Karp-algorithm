@@ -7,7 +7,6 @@ MMHK <- function(m_input) { # maximum matching with Hopcroft-Karp algorithm
   M <- m_input
   
   
-  
   ## prepare functions ---------
   
   
@@ -224,6 +223,7 @@ MMHK <- function(m_input) { # maximum matching with Hopcroft-Karp algorithm
 
 ## test ---------
 
+
 # test1 <- matrix(c(1,1,0,0,1,0,1,
 #                     1,0,0,0,0,1,0,
 #                     0,1,0,0,0,0,0,
@@ -234,6 +234,8 @@ MMHK <- function(m_input) { # maximum matching with Hopcroft-Karp algorithm
 # test2 <- matrix(c(1,0,1,
 #                 0,1,0,
 #                 1,0,0),nrow=3, byrow = TRUE)
-# MMHK(test1)
-# MMHK(test2)
-  
+# > MMHK(test1)
+# [1] 3 2 4 4 6 3 7 6 2 1 1 5
+# > MMHK(test2)
+# [1] 2 2 3 1 1 3
+
